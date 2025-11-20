@@ -1,0 +1,107 @@
+/*general*/
+body{
+    background-color: rgb(255, 219, 172);
+    margin: 0;
+    color:  rgb(54, 0, 0);
+}
+@keyframes fadeInBody {
+    to {
+        opacity: 1;
+    }
+}
+p{
+    font-size: 100%;
+    font-family: "Libre Franklin";
+
+}
+h1 {
+    font-size: 200%;
+    font-weight: 1000;
+}
+hr {
+    border: none;
+    height: 2px; 
+    background-color: #333; 
+    width: 100%; 
+    margin: 20px auto; 
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(231, 194, 154);
+    font-family: "Libre Franklin";
+    font-size: 90%;
+}
+@keyframes fadeInBody {
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+/*links*/
+.links {
+    word-spacing: 50px;
+}
+.links a{
+    color: green;
+    text-decoration: none;
+}
+.links a:hover{
+    text-decoration: underline;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+}
+.menubar{
+    /*looks*/
+    background-color: rgb(226, 176, 121);
+    flex-direction: column;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.5);
+
+    /*center*/
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    /*text*/
+    font-family: "Momo Trust Display";
+    font-weight: 1000;
+    font-size: 500%;
+    color: maroon;
+}
+
+/*body*/
+.middle{
+    font-family: "Libre Franklin";
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 200%;
+    opacity: 0;
+    animation: fadeInBody 0.75s ease-in forwards;
+
+}
+.middle h2{
+    padding: 0%;
+}
+.middle ul{
+    padding: 2%;
+}
+.middle li {
+    margin-bottom: 5px;
+}
+.pfp{
+    width: 80%; 
+    border: 5px solid rgb(54, 0, 0);
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 33%;
+}
